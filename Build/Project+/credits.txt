@@ -21,6 +21,7 @@ KIRBY
 FOX
 09 - Kaston Fox by Kurukato
 10 - Kelvar Fox by Kurukato
+11 - Sledj Fox by Kurukato
 
 PIKACHU
 
