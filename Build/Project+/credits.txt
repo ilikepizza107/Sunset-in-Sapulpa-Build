@@ -38,12 +38,15 @@ BOWSER
 PEACH
 
 ZELDA
+26 - Major Zelda by Kurukato
 
 SHEIK
+26 - Major Sheik by Kurukato
 
 ICE CLIMBERS
 
 MARTH
+24 - Pickle Stein Marth by Kurukato
 
 MR. GAME & WATCH
 
@@ -97,6 +100,7 @@ ROY
 TOON LINK
 
 KNUCKLES
+30 - Xaddy Knuckles by Kurukato
 
 WOLF
 34 - Kevlar Wolf by Kurukato
