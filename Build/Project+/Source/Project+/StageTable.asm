@@ -15,76 +15,86 @@ Stage Select Screen Table Data
 .GOTO->SkipStageTables
 
 TABLE_1:
-	byte[21] |
-0x20, | # Yoshi's Story
-0x05, | # Bowser's Castle
-0x14, | # Castle Siege
-0x1E, | # Sky Sanctuary Zone
-0x21, | # Golden Temple
-0x0A, | # Ceres Space Colony
-0x16, | # Distant Planet
-0x0C, | # Yoshi's Island
-0x15, | # Wario Land
-0x18, | # Fountain of Dreams
-0x01, | # Final Destination
-0x04, | # Metal Cavern
-0x23, | # Dream Land
-0x0B, | # Frigate Husk
-0x08, | # Temple of Time
-0x1C, | # Green Hill Zone
-0x1A, | # Smashville
-0x00, | # Battlefield
-0x28, | # Pokemon Stadium 2
-0x02, | # Delfino's Secret
-0x03  | # Luigi's Mansion
+	byte[12] |
+0x0C,	| # Yoshis_Island
+0x0B,	| # Frigate_Husk
+0x23,	| # Dream_Land
+0x08,	| # Temple_of_Time
+0x1A,	| # Smashville
+0x00,	| # Battlefield
+0x28,	| # Pokemon_Stadium_2
+0x03,	| # Luigis_Mansion
+0x2B,	| # Training
+0x2B,	| # Training
+0x2B,	| # Training
+0x2B	| # Training
+
 
 TABLE_2:
-	byte[21] |
-0x24, | # Peach's Castle
-0x06, | # Kongo Jungle
-0x07, | # Rumble Falls
-0x09, | # Hyrule Castle
-0x1F, | # Temple
-0x0D, | # Halberd
-0x27, | # Planet Zebes
-0x0F, | # Saffron City
-0x10, | # Spear Pillar
-0x25, | # Corneria
-0x0E, | # Lylat Cruise
-0x22, | # Onett
-0x19, | # Fourside
-0x12, | # Infinite Glacier
-0x26, | # Big Blue
-0x11, | # Port Town Aero Dive
-0x13, | # Flat Zone 2
-0x17, | # Skyworld
-0x1B, | # Shadow Moses Island
-0x1D, | # PictoChat
-0x2B  | # Training Room
+	byte[27] |
+0x1E,	| # Sky_Sanctuary
+0x15,	| # Wario_Land
+0x04,	| # Metal_Cavern
+0x1C,	| # Green_Hill_Zone
+0x02,	| # Delfino_Secret
+0x16,	| # Distant_Planet
+0x24,	| # Peach_Castle
+0x06,	| # Kongo_Jungle
+0x07,	| # Rumble_Falls
+0x09,	| # Hyrule_Castle
+0x1F,	| # Temple
+0x0D,	| # Halberd
+0x27,	| # Planet_Zebes
+0x0F,	| # Saffron_City
+0x10,	| # Spear_Pillar
+0x25,	| # Corneria
+0x0E,	| # Lylat_Cruise
+0x22,	| # Onett
+0x19,	| # Fourside
+0x12,	| # Infinite_Glacier
+0x26,	| # Big_Blue
+0x11,	| # Port_Town
+0x13,	| # Flat_Zone
+0x17,	| # Skyworld
+0x1B,	| # Shadow_Moses
+0x1D,	| # PictoChat
+0x2B	| # Training
+
 
 TABLE_3:
-	byte[18] |
-0x31, | # Dinosaur Land
-0x2D, | # Mario Circuit
-0x38, | # Mushroom Kingdom
-0x3B, | # Rainbow Cruise
-0x32, | # Oil Drum Alley
-0x33, | # Jungle Japes
-0x36, | # Cookie Country
-0x2E, | # Clock Town
-0x3D, | # Pirate Ship
-0x39, | # WarioWare, Inc.
-0x3C, | # Poke Floats
-0x34, | # Bell Tower
-0x35, | # Norfair
-0x2F, | # Hanenbow
-0x37, | # Venus Lighthouse
-0x2C, | # Dracula's Castle
-0x30, | # Dead Line
-0x3A  | # Subspace
+	byte[25] |
+0x01,	| # Final_Destination
+0x14,	| # Castle_Siege
+0x18,	| # Fountain_of_Dreams
+0x20,	| # Yoshis_Story
+0x05,	| # Bowser_Castle
+0x21,	| # Golden_Temple
+0x0A,	| # Ceres_Space_Colony
+0x31,	| # Dinosaur_Land
+0x2D,	| # Mario_Circuit
+0x38,	| # Mushroom_Kingdom
+0x3B,	| # Rainbow_Cruise
+0x32,	| # Minecart_Madness
+0x33,	| # Jungle_Japes
+0x36,	| # Cookie_Country
+0x2E,	| # Clock_Town
+0x3D,	| # Pirate_Ship
+0x39,	| # WarioWare
+0x3C,	| # Poke_Floats
+0x34,	| # Bell_Tower
+0x35,	| # Norfair
+0x2F,	| # Hanenbow
+0x37,	| # Venus_Lighthouse
+0x2C,	| # Draculas_Castle
+0x30,	| # Dead_Line
+0x3A	| # Subspace
 
-TABLE_4:	# Unused
-TABLE_5:	# Unused
+
+TABLE_4:
+
+
+TABLE_5:
+
 
 TABLE_STAGES:
 # Table of icon<->stage slot associations
@@ -92,7 +102,7 @@ half[62] |	# Stage Count + 2
 | # OLD SLOTS
 0x0101, 0x0202, 0x0303, 0x0404, | # Battlefield, Final Destination, Delfino's Secret, Luigi's Mansion
 0x0505, 0x0606, 0x0707, 0x0808, | # Metal Cavern, Bowser's Castle, Kongo Jungle, Rumble Falls
-0x0909, 0x330A, 0x492C, 0x0C0C, | # Temple of Time, Hyrule Castle, Ceres Space Colony, Frigate Husk
+0x0909, 0x330A, 0x492C, 0x0C0C, | # Temple of Time, Hyrule Castle, Metroid Lab, Frigate Husk
 0x0D0D, 0x0E0E, 0x130F, 0x1410, | # Yoshi's Island, Halberd, Lylat Cruise, Saffron City
 0x1511, 0x1612, 0x1713, 0x1814, | # Spear Pillar, Port Town Aero Dive, Infinite Glacier, Flat Zone 2
 0x1915, 0x1C16, 0x1D17, 0x1E18, | # Castle Siege, Wario Land, Distant Planet, Skyworld
@@ -111,10 +121,10 @@ half[62] |	# Stage Count + 2
 
 SkipStageTables:
 .RESET
-
-byte 21 @ $806B929C # Page 1
-byte 21 @ $806B92A4 # Page 2
-byte 18 @ $80496002 # Page 3
+* 20523400 00000000 # If 80523400 is equal to 0
+byte 12 @ $806B929C # Page 1
+byte 27 @ $806B92A4 # Page 2
+byte 25 @ $80496002 # Page 3
 byte 00 @ $80496003 # Page 4 (Unused)
 byte 00 @ $80496004 # Page 5 (Unused)
-byte 60 @ $800AF673 # Stage Count
+byte 64 @ $800AF673 # Stage Count

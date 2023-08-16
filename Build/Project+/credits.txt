@@ -133,6 +133,4 @@ MENUS
 
 New "Ready To Fight!" Model by Xenthos
 
-"!" textures by ilikepizza107
-
-CSS + SSS by ilikepizza107
+CSS by ilikepizza107
