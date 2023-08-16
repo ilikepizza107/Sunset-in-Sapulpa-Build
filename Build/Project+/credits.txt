@@ -19,6 +19,7 @@ YOSHI
 KIRBY
 
 FOX
+09 - Kaston Fox by Kurukato
 
 PIKACHU
 
@@ -44,6 +45,7 @@ MARTH
 MR. GAME & WATCH
 
 FALCO
+09 - Kaston Falco by Kurukato
 
 GANONDORF
 
