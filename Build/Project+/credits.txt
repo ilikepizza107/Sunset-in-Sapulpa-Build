@@ -31,7 +31,6 @@ CAPTAIN FALCON
 NESS
 
 BOWSER
-11 - Finch Bowser by Kurukato
 
 PEACH
 
@@ -104,7 +103,6 @@ SONIC
 WARIO MAN
 
 GIGA BOWSER
-11 - Finch Giga Bowser by Kurukato
 
 
 ########################
