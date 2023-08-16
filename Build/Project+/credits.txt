@@ -31,14 +31,13 @@ CAPTAIN FALCON
 NESS
 
 BOWSER
+11 - Finch Bowser by Kurukato
 
 PEACH
 
 ZELDA
-26 - Major Zelda by Kurukato
 
 SHEIK
-26 - Major Sheik by Kurukato
 
 ICE CLIMBERS
 
@@ -104,6 +103,7 @@ SONIC
 WARIO MAN
 
 GIGA BOWSER
+11 - Finch Giga Bowser by Kurukato
 
 
 ########################
