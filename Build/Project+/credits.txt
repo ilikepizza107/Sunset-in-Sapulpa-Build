@@ -31,7 +31,6 @@ CAPTAIN FALCON
 NESS
 
 BOWSER
-11 - Finch Bowser by Kurukato
 
 PEACH
 
@@ -53,6 +52,7 @@ GANONDORF
 META KNIGHT
 
 PIT
+09 - Sib Pit by Kurukato
 
 ZERO SUIT SAMUS
 
@@ -103,7 +103,6 @@ SONIC
 WARIO MAN
 
 GIGA BOWSER
-11 - Finch Giga Bowser by Kurukato
 
 
 ########################
