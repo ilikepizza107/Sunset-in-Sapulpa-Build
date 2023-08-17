@@ -108,6 +108,7 @@ KNUCKLES
 
 WOLF
 34 - Kevlar Wolf by Kurukato
+35 - Delfino Wolf by Kurukato
 
 SNAKE
 25 - FlashingFire Snake by Kurukato
